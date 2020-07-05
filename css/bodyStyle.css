@@ -1,0 +1,38 @@
+body{
+	margin-top: 57px !important;
+	margin: 0px;
+}
+
+.home_heading{
+	font-size: 42px;
+	
+	margin: auto;
+}
+
+.btn-custom {
+    color: #ffffff !important;
+    background-color: #FFC763 !important;
+    border-color: #FFC763 !important;
+}
+select.form-control.form-control-lg {
+    margin-bottom: 21px;
+}
+
+.left_home {
+  background: url(../image/undraw_studying_s3l7.svg) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background-position: center !important;
+  height: 600px;
+}
+
+
+.right_home {
+    padding-left: 10% !important;
+    padding-right: 10% !important; 
+	margin: auto !important;
+	
+}
+
+
+/* complete site color : #FFC763*/
