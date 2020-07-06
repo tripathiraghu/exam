@@ -67,13 +67,13 @@ include 'header.php';
 						<!-- select Class -->
 				<div class="container">
 					<form method="post" action="examTest.php" name="fr1">
-				<select class="form-control form-control-lg" id="class" name="class">
+				<select class="form-control form-control-lg" id="class" name="class" required>
   					<option value="">Select Class</option>
 				</select>
 
 
 	<!-- select Subject -->
-				<select class="form-control form-control-lg" id="subject" name="subject">
+				<select class="form-control form-control-lg" id="subject" name="subject" required>
   					<option value="">Select Subject</option>
 				</select>
 			
