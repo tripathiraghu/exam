@@ -62,29 +62,33 @@ include 'header.php';
 	</div>
 	
 		<div class="row">
-			<div class="col-md-6 col-sm-12 left_home">
-
-			</div>
-		
+			
 			<div class="col-md-6 col-sm-12 right_home">
 						<!-- select Class -->
 				<div class="container">
-					<form method="">
-				<select class="form-control form-control-lg" id="class">
+					<form method="post" action="examTest.php" name="fr1">
+				<select class="form-control form-control-lg" id="class" name="class">
   					<option value="">Select Class</option>
 				</select>
 
 
 	<!-- select Subject -->
-				<select class="form-control form-control-lg" id="subject">
+				<select class="form-control form-control-lg" id="subject" name="subject">
   					<option value="">Select Subject</option>
 				</select>
-			</form>
-				<div>
-			     <p><a class="btn btn-custom btn-lg" href="#" role="button">Start Test</a></p>
-				</div>
+			
+				
+			     <button  class="btn btn-custom btn-lg" type="submit">Start Test</button>
+				
+				</form>
 			</div>
 			</div>
+
+
+			<div class="col-md-6 col-sm-12 left_home">
+
+			</div>
+		
 		</div>
 	
 
